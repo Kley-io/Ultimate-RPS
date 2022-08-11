@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Ultimate RPS</h1>
+        <button id="play-btn">play</button>
+
+        <div class="display" id="content">
+          <div class="main">
+            <div class="player">
+              <h3>You</h3>
+              <h3 id="player-score"></h3>
+              <div id="display-input"></div>
+            </div>
+            <div>vs</div>
+
+            <div class="computer">
+              <h3>computer</h3>
+              <h3 id="comp-score"></h3>
+              <div id="computer-input"></div>
+            </div>
+          </div>
+
+          <div class="bottom" id="bottom">
+            <button id="rock" class="btn">rock</button>
+            <button id="paper" class="btn">paper</button>
+            <button id="scissors" class="btn">scissors</button>
+          </div>
+
+          <div class="footer">
+            <h2 id="declare-text"></h2>
+            <p id="description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
